@@ -14,8 +14,7 @@ Mongoose.connect(dbURI,{ useNewUrlParser: true ,useUnifiedTopology: true } ,func
 })
 
 app.use('/graphql', graphqlHTTP({
-    schema,
-    graphiql: true
+    schema
 }))
 app.listen(4000, () => {
     console.log("now listening on port 4000")
