@@ -1,0 +1,24 @@
+{
+  "name": "grapghql",
+  "version": "1.0.0",
+  "description": "playing with mongodb,qraphql server,react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badassben/grapgql.git"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badassben/grapgql/issues"
+  },
+  "homepage": "https://github.com/badassben/grapgql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  }
+}
