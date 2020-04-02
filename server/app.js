@@ -13,7 +13,7 @@ Mongoose.connect(dbURI,{ useNewUrlParser: true ,useUnifiedTopology: true } ,func
     }
 })
 
-app.use('/graphql', graphqlHTTP({
+app.use('https://bengraphql.herokuapp.com/graphql', graphqlHTTP({
     schema,
     graphiql:true
 }))
